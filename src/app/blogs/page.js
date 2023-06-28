@@ -99,7 +99,9 @@ export default function Page() {
             <Card type={"post"} className="scale-95" postURL="/post/15792486" />
             <Card type={"post"} className="scale-95" postURL="/post/15792486" />
             <Card type={"post"} className="scale-95" postURL="/post/15792486" />
-            <button className="btn primaryBtn">Load More</button>
+            <div className="wrapper w-full flex justify-center">
+              <button className="btn primaryBtn">Load More</button>
+            </div>
           </div>
         </div>
         {/* <Card type={"post"} /> */}
