@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCode, FaObjectGroup, FaUser, FaUsers } from "react-icons/fa6";
 
-const Page = () => {
+const Services = () => {
   const cards = [
     {
       icon: <FaUser />,
@@ -50,4 +50,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Services;

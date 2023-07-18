@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "@/app/components/Card/page";
+import Card from "@/app/components/Card";
 import Link from "next/link";
 
-const Page = () => {
+const Blogs = () => {
   return (
     <>
       <div className="blogsSection" id="blogs">
@@ -27,4 +27,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Blogs;

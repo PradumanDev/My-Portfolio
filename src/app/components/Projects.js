@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import Card from '@/app/components/Card/page'
+import Card from '@/app/components/Card'
 
-const Page = () => {
+const Projects = () => {
   return (
     <>
       <div className="projectsSection" id="projects">
@@ -29,4 +29,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Projects;

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
-import Card from "@/app/components/Card/page";
-import ScrollToTop from "@/app/components/ScrollToTop/page";
+import Card from "@/app/components/Card";
+import ScrollToTop from "@/app/components/ScrollToTop";
 import { FaMagnifyingGlass, FaXmark } from "react-icons/fa6";
 import Link from "next/link";
 

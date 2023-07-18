@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa6";
 
-const Page = ({ type, className, postURL }) => {
+const Card = ({ type, className, postURL = "/post/" }) => {
   console.log(postURL);
   if (type === "project") {
     return (
@@ -46,8 +46,4 @@ const Page = ({ type, className, postURL }) => {
   }
 };
 
-Page.defaultProps = {
-  postURL: "/post/",
-}
-
-export default Page;
+export default Card;

@@ -60,7 +60,7 @@ const keySkils = [
   "Next.JS",
 ]
 
-const Page = () => {
+const About = () => {
   const socialIcons = [
     {
       icon: <FaFacebook />,
@@ -160,4 +160,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default About;

@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 
-const Page = () => {
+const ScrollToTop = () => {
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -21,4 +21,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default ScrollToTop

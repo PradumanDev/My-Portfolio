@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const Page = () => {
+const HomeSection = () => {
   return (
     <>
       <div className="homeSection">
@@ -36,4 +36,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default HomeSection;

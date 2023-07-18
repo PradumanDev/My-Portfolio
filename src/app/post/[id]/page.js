@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import Card from "@/app/components/Card/page";
+import Card from "@/app/components/Card";
+import ScrollToTop from "@/app/components/ScrollToTop";
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -179,6 +180,7 @@ const Page = ({ params }) => {
           <button className="nextBtn">Next Post&nbsp;<FaArrowRight/></button>
         </div>
       </div>
+      <ScrollToTop />
     </>
   );
 };
