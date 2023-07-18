@@ -106,6 +106,7 @@ export default function Page() {
         </div>
         {/* <Card type={"post"} /> */}
       </div>
+      <ScrollToTop/>
     </>
   );
 }
