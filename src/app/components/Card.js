@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { FaAngleRight } from "react-icons/fa6";
 
 const Card = ({ type, className, postURL = "/post/" }) => {
@@ -7,7 +8,7 @@ const Card = ({ type, className, postURL = "/post/" }) => {
   if (type === "project") {
     return (
       <>
-        <div className="projectCard">
+        <motion.div className="projectCard" whileHover={{ scale: 1.1 }}>
           <div className="cardImage">
             <img
               src={
@@ -20,13 +21,13 @@ const Card = ({ type, className, postURL = "/post/" }) => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             vitae dolor ultrices libero.
           </div>
-        </div>
+        </motion.div>
       </>
     );
   } else if (type === "post") {
     return (
       <>
-        <div className={`postCard ${className}`}>
+        <motion.div className={`postCard ${className}`} initial={{ scale: 0.98 }} whileHover={{ scale: 1 }} animate={{ transition: { duration: 0.5 } }}>
           <div className="cardImage">
             <Link href={postURL}><img
               src={
@@ -40,7 +41,7 @@ const Card = ({ type, className, postURL = "/post/" }) => {
             vitae dolor ultrices libero.
           </div>
           <Link href={postURL} className="readMore">Read More</Link>
-        </div>
+        </motion.div>
       </>
     );
   }
